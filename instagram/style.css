@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+}
+main{
+    margin: 2% auto;
+    width: 70%;
+}
+.section{
+    display: flex;
+}
+.images{
+    display: flex;
+    width: 60%;
+
+}
+
+#img1{
+    width: 60%;
+    border: 10px solid white;
+    border-radius: 10%;
+    border-bottom: 20px solid white;
+    position: relative;
+    height: 30rem;
+}
+#img2{
+    position: absolute;
+    width: 22%;
+    height: 75%;
+    top: 10%;
+    left: 25%;
+    border: 10px solid white;
+    border-radius: 10%;
+    border-bottom: 20px solid white;
+}
+form img{
+    width: 2rem;
+}
+form{
+    width: 42%;
+    padding: 2rem;
+    background-color: rgb(16, 15, 15);
+    text-align:center;
+    height: 20rem;
+    border: 1px solid rgb(238, 235, 235);
+}
+#text{
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+input{
+    width: 20rem;
+    padding: 0.7rem;
+    margin: 7px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+button{
+    width: 20rem;
+    background-color: rgb(21, 21, 76);
+    color: white;
+    padding: 0.5rem;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 10px ;
+    border: 1px solid rgb(21, 21, 76);
+}
+#or{
+    color: white;
+}
+strong{
+    color: rgb(88, 133, 237);
+    font-weight: 800;
+
+}
+h4{
+    margin-top: -30px;
+}
+form p{
+    color: aquamarine;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.small{
+    width: 43%;
+    height: 4rem;
+    background-color: rgb(16, 15, 15);
+    margin-left: 55%;
+    margin-top: -7rem;
+    text-align: center;
+    padding: 0.5rem;
+    border: 1px solid white;
+}
+.small p{
+    font-size: 20px;
+    color: white;
+}
+.small a{
+    text-decoration: none;
+    color: rgb(4, 148, 184);
+}
+#get {
+    color: white;
+    margin-left: 67%;
+    font-weight: 600;
+}
+.last{
+    display: flex;
+    margin-left: 60%;
+}
+.last img{
+    width: 10rem;
+    color: white;
+    height: 4rem;
+    margin-right: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    main{
+        margin: 2% auto;
+        width: 100%;
+    }
+    .section{
+        display: block;
+    }
+    .images{
+        width: 100%;
+        margin-left: 1rem;
+    }
+    #img2{
+        left: 30%;
+        width: 55%;
+        height: 60%;
+        top: 7%;
+    }
+    form{
+        margin: 2rem auto;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        height: 25rem;
+    }
+    input{
+        width: 15rem;
+    }
+    #text{
+        color: black;
+    }
+    button {
+        width: 15rem;
+        background-color: rgb(6, 104, 165);
+    }
+    .small{
+        margin: auto;
+    }
+    #get{
+        margin-left: 10%;
+    }
+    .last{
+        margin-left: 0%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
